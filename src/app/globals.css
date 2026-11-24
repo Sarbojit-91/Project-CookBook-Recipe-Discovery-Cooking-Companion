@@ -1,0 +1,93 @@
+@import "tailwindcss";
+
+/*
+ * CookBook design tokens.
+ * Warm, light-only palette (a dark theme is a later release). Text colours below meet WCAG AA
+ * (≥ 4.5:1) on both `cream` and `surface`.
+ */
+@theme {
+  /* Neutrals */
+  --color-cream: #fbf7f2; /* page background */
+  --color-surface: #ffffff; /* cards, panels */
+  --color-sand: #f3eadf; /* muted panels, skeletons */
+  --color-line: #e5d9c9; /* borders, dividers */
+  --color-ink: #2a2420; /* body text */
+  --color-ink-muted: #6b5f55; /* secondary text */
+
+  /* Terracotta accent */
+  --color-terracotta-50: #fbefe8;
+  --color-terracotta-100: #f6dccf;
+  --color-terracotta-500: #c8643c;
+  --color-terracotta-600: #b0522e; /* primary buttons, links */
+  --color-terracotta-700: #8f4024; /* hover */
+
+  /* Sage secondary */
+  --color-sage-50: #f0f4ee;
+  --color-sage-100: #e0e9dc;
+  --color-sage-600: #55694c;
+  --color-sage-700: #435439;
+
+  /* Typography */
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+  --font-display: var(--font-fraunces), ui-serif, Georgia, serif;
+
+  /* Shape and depth */
+  --radius-card: 1.25rem;
+  --shadow-card: 0 1px 2px rgb(42 36 32 / 0.06), 0 8px 24px -12px rgb(42 36 32 / 0.18);
+  --shadow-raised: 0 2px 4px rgb(42 36 32 / 0.08), 0 16px 40px -16px rgb(42 36 32 / 0.28);
+
+  /* Height of the mobile bottom tab bar (excluding the safe-area inset) */
+  --spacing-tabbar: 4rem;
+
+  --animate-fade-in: fade-in 0.4s ease-out both;
+
+  @keyframes fade-in {
+    from {
+      opacity: 0;
+      transform: translateY(4px);
+    }
+    to {
+      opacity: 1;
+      transform: none;
+    }
+  }
+}
+
+@layer base {
+  :root {
+    color-scheme: light;
+  }
+
+  html {
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  body {
+    @apply bg-cream text-ink font-sans;
+  }
+
+  h1,
+  h2,
+  h3 {
+    @apply font-display text-balance;
+  }
+
+  :focus-visible {
+    @apply outline-terracotta-600 outline-2 outline-offset-2;
+  }
+
+  ::selection {
+    @apply bg-terracotta-100 text-ink;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
