@@ -6,8 +6,9 @@ Source of truth for scope and decisions. Update it when a decision changes.
 
 - [x] Phase 0 — Project setup
 - [x] Phase 1 — Design system and layout (tokens, fonts, header, mobile tab bar, base UI, 404/error/loading)
-- [ ] Phase 2 — Content schema, ingredients, image pipeline, first 12 recipes ← next
-- [ ] Phases 3–11 (see below)
+- [x] Phase 2 — Content schema + validation, ingredients, image pipeline, 12 recipes (photos pending)
+- [ ] Phase 3 — Discovery: home, `/recipes`, recipe page, landing pages ← next
+- [ ] Phases 4–11 (see below)
 
 ## Key decisions
 

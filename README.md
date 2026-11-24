@@ -36,7 +36,9 @@ Copy `.env.example` to `.env.local` once Supabase is set up (Phase 6). Never com
 | `npm test`             | Unit and component tests (Vitest)                   |
 | `npm run test:watch`   | Vitest in watch mode                                |
 | `npm run test:e2e`     | End-to-end and accessibility tests (Playwright)     |
-| `npm run check`        | Lint, typecheck, format check and unit tests in one |
+| `npm run images`       | Generate AVIF/WebP sizes for new recipe photos      |
+| `npm run images:check` | Fail if generated photos are missing or stale       |
+| `npm run check`        | Lint, typecheck, format, image check and unit tests |
 
 First-time Playwright setup: `npx playwright install chromium`.
 
@@ -46,7 +48,9 @@ First-time Playwright setup: `npx playwright install chromium`.
 src/app/          Routes (App Router). Unit tests sit next to the code as *.test.ts(x).
 src/components/   Shared UI components            (Phase 1)
 src/lib/          Logic: search, units, scaling   (Phase 2+)
-src/content/      Recipe, ingredient and cuisine data (Phase 2)
+src/content/      Recipes (one file each), ingredients, cuisines; validated on import
+src/content/images/  Source photos — see the README there before adding one
+scripts/          build-images.mjs (photo pipeline)
 e2e/              Playwright tests
 ```
 

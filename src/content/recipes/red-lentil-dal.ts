@@ -1,0 +1,112 @@
+import type { RecipeInput } from "../schema";
+
+export const recipe = {
+  slug: "red-lentil-dal",
+  title: "Everyday Red Lentil Dal",
+  description:
+    "Silky split red lentils simmered with turmeric, finished with a sizzling cumin, garlic and tomato tadka.",
+  cuisine: "indian",
+  mealTypes: ["lunch", "dinner"],
+  difficulty: "easy",
+  servings: 4,
+  prepMinutes: 10,
+  cookMinutes: 30,
+  totalMinutes: 40,
+  tags: ["one-pot", "budget", "comfort-food", "freezer-friendly"],
+  seasons: ["autumn", "winter"],
+  addedAt: "2026-11-02",
+  featured: true,
+  image: null,
+  ingredients: [
+    { ingredient: "red-lentils", quantity: 250, unit: "g", preparation: "rinsed" },
+    { ingredient: "water", quantity: 1, unit: "l" },
+    { ingredient: "ground-turmeric", quantity: 0.5, unit: "tsp" },
+    { ingredient: "salt", quantity: 1, unit: "tsp", note: "Adjust to taste" },
+    { ingredient: "vegetable-oil", quantity: 2, unit: "tbsp", group: "For the tadka" },
+    { ingredient: "cumin-seeds", quantity: 1, unit: "tsp", group: "For the tadka" },
+    {
+      ingredient: "onion",
+      quantity: 1,
+      unit: "piece",
+      preparation: "finely chopped",
+      group: "For the tadka",
+    },
+    {
+      ingredient: "garlic",
+      quantity: 4,
+      unit: "clove",
+      preparation: "finely chopped",
+      group: "For the tadka",
+    },
+    {
+      ingredient: "ginger",
+      quantity: 1,
+      unit: "tbsp",
+      preparation: "finely grated",
+      group: "For the tadka",
+    },
+    {
+      ingredient: "green-chilli",
+      quantity: 1,
+      unit: "piece",
+      preparation: "slit lengthways",
+      group: "For the tadka",
+    },
+    {
+      ingredient: "tomato",
+      quantity: 2,
+      unit: "piece",
+      preparation: "chopped",
+      group: "For the tadka",
+    },
+    { ingredient: "garam-masala", quantity: 0.5, unit: "tsp", group: "For the tadka" },
+    {
+      ingredient: "lemon",
+      quantity: 0.5,
+      unit: "piece",
+      preparation: "juiced",
+      group: "To finish",
+    },
+    {
+      ingredient: "fresh-coriander",
+      quantity: 1,
+      unit: "handful",
+      preparation: "chopped",
+      group: "To finish",
+    },
+  ],
+  steps: [
+    {
+      text: "Rinse the lentils in a sieve under cold water until it runs almost clear. Put them in a large saucepan with the water and turmeric and bring to the boil, skimming off any foam.",
+      uses: ["red-lentils", "water", "ground-turmeric"],
+    },
+    {
+      text: "Simmer, partly covered, for 20–25 minutes, stirring now and then, until the lentils collapse into a thick, soupy purée. Add a splash of water if it gets too thick, then stir in the salt.",
+      timerSeconds: 20 * 60,
+      uses: ["salt"],
+    },
+    {
+      text: "Meanwhile, heat the oil in a frying pan over a medium heat. Add the cumin seeds and let them sizzle for about 30 seconds, until fragrant and a shade darker.",
+      uses: ["vegetable-oil", "cumin-seeds"],
+    },
+    {
+      text: "Add the onion and cook for 8–10 minutes, stirring often, until soft and golden.",
+      timerSeconds: 8 * 60,
+      uses: ["onion"],
+    },
+    {
+      text: "Add the garlic, ginger and chilli and cook for 1 minute. Add the tomatoes and cook for about 5 minutes, until soft and jammy.",
+      timerSeconds: 5 * 60,
+      uses: ["garlic", "ginger", "green-chilli", "tomato"],
+    },
+    {
+      text: "Stir the garam masala into the tadka, then tip everything into the dal and simmer for 2 minutes. Squeeze in the lemon juice, taste for salt and scatter with coriander.",
+      uses: ["garam-masala", "lemon", "fresh-coriander"],
+    },
+  ],
+  tips: [
+    "Serve with steamed basmati rice, chapatis or naan.",
+    "The dal thickens as it cools. Loosen leftovers with a little hot water when reheating.",
+  ],
+  nutrition: null,
+} satisfies RecipeInput;

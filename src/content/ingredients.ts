@@ -1,0 +1,342 @@
+import type { IngredientInput } from "./schema";
+
+/**
+ * Every ingredient used by a recipe. Flags must be complete for animal products, because diet
+ * labels are derived from them.
+ */
+export const ingredients: IngredientInput[] = [
+  // ── Staples (assumed in pantry search) ──
+  { id: "salt", name: "salt", aisle: "spices", staple: true },
+  { id: "black-pepper", name: "black pepper", aisle: "spices", staple: true },
+  { id: "water", name: "water", aisle: "other", staple: true },
+  {
+    id: "vegetable-oil",
+    name: "vegetable oil",
+    aliases: ["sunflower oil", "neutral oil", "rapeseed oil"],
+    aisle: "condiments",
+    staple: true,
+  },
+  {
+    id: "olive-oil",
+    name: "olive oil",
+    aliases: ["extra virgin olive oil"],
+    aisle: "condiments",
+    staple: true,
+  },
+
+  // ── Produce ──
+  {
+    id: "onion",
+    name: "onion",
+    plural: "onions",
+    aliases: ["brown onion", "yellow onion"],
+    aisle: "produce",
+  },
+  { id: "red-onion", name: "red onion", plural: "red onions", aisle: "produce" },
+  { id: "garlic", name: "garlic", aisle: "produce" },
+  { id: "ginger", name: "fresh ginger", aliases: ["ginger root"], aisle: "produce" },
+  {
+    id: "green-chilli",
+    name: "green chilli",
+    plural: "green chillies",
+    aliases: ["green chili"],
+    aisle: "produce",
+  },
+  {
+    id: "red-bird-eye-chilli",
+    name: "red bird's eye chilli",
+    plural: "red bird's eye chillies",
+    aliases: ["thai chilli", "bird's eye chili"],
+    aisle: "produce",
+  },
+  { id: "tomato", name: "tomato", plural: "tomatoes", aisle: "produce" },
+  {
+    id: "red-pepper",
+    name: "red pepper",
+    plural: "red peppers",
+    aliases: ["red bell pepper", "capsicum"],
+    aisle: "produce",
+  },
+  { id: "carrot", name: "carrot", plural: "carrots", aisle: "produce" },
+  {
+    id: "celery",
+    name: "celery stick",
+    plural: "celery sticks",
+    aliases: ["celery"],
+    aisle: "produce",
+  },
+  {
+    id: "potato-floury",
+    name: "floury potato",
+    plural: "floury potatoes",
+    aliases: ["potato", "maris piper", "russet potato"],
+    aisle: "produce",
+  },
+  {
+    id: "chestnut-mushroom",
+    name: "chestnut mushroom",
+    plural: "chestnut mushrooms",
+    aliases: ["mushroom", "cremini mushroom", "brown mushroom"],
+    aisle: "produce",
+  },
+  {
+    id: "spring-onion",
+    name: "spring onion",
+    plural: "spring onions",
+    aliases: ["scallion", "green onion"],
+    aisle: "produce",
+  },
+  { id: "cucumber", name: "cucumber", plural: "cucumbers", aisle: "produce" },
+  { id: "avocado", name: "avocado", plural: "avocados", aisle: "produce" },
+  { id: "lemon", name: "lemon", plural: "lemons", aisle: "produce" },
+  { id: "lime", name: "lime", plural: "limes", aisle: "produce" },
+  {
+    id: "fresh-coriander",
+    name: "fresh coriander",
+    aliases: ["cilantro", "coriander leaves"],
+    aisle: "produce",
+  },
+  {
+    id: "flat-leaf-parsley",
+    name: "flat-leaf parsley",
+    aliases: ["parsley", "italian parsley"],
+    aisle: "produce",
+  },
+  {
+    id: "thai-holy-basil",
+    name: "holy basil",
+    aliases: ["thai basil", "tulsi", "kra pao"],
+    aisle: "produce",
+  },
+  { id: "fresh-thyme", name: "fresh thyme", aliases: ["thyme"], aisle: "produce" },
+
+  // ── Meat & fish ──
+  {
+    id: "chicken-thigh",
+    name: "boneless chicken thigh",
+    plural: "boneless chicken thighs",
+    aliases: ["chicken", "chicken thighs"],
+    aisle: "meat-fish",
+    flags: ["poultry"],
+  },
+  {
+    id: "lamb-mince",
+    name: "lamb mince",
+    aliases: ["ground lamb", "minced lamb"],
+    aisle: "meat-fish",
+    flags: ["meat"],
+  },
+  {
+    id: "salmon-fillet",
+    name: "salmon fillet",
+    plural: "salmon fillets",
+    aliases: ["salmon"],
+    aisle: "meat-fish",
+    flags: ["fish"],
+  },
+
+  // ── Dairy & eggs ──
+  { id: "egg", name: "egg", plural: "eggs", aisle: "dairy-eggs", flags: ["egg"] },
+  {
+    id: "butter",
+    name: "butter",
+    aliases: ["unsalted butter"],
+    aisle: "dairy-eggs",
+    flags: ["dairy"],
+  },
+  { id: "milk", name: "milk", aliases: ["whole milk"], aisle: "dairy-eggs", flags: ["dairy"] },
+  {
+    id: "plain-yogurt",
+    name: "plain yogurt",
+    aliases: ["natural yogurt", "yoghurt", "curd", "dahi"],
+    aisle: "dairy-eggs",
+    flags: ["dairy"],
+  },
+  {
+    id: "vegetarian-hard-cheese",
+    name: "vegetarian Italian-style hard cheese",
+    // Traditional Parmigiano-Reggiano uses animal rennet, so recipes use a vegetarian alternative.
+    aliases: ["parmesan", "vegetarian parmesan", "hard cheese"],
+    aisle: "dairy-eggs",
+    flags: ["dairy"],
+  },
+
+  // ── Grains, pasta & bakery ──
+  {
+    id: "red-lentils",
+    name: "split red lentils",
+    aliases: ["masoor dal", "red lentils"],
+    aisle: "grains-pasta",
+  },
+  {
+    id: "spaghetti",
+    name: "dried spaghetti",
+    aliases: ["spaghetti", "pasta"],
+    aisle: "grains-pasta",
+    flags: ["gluten"],
+  },
+  {
+    id: "arborio-rice",
+    name: "risotto rice",
+    aliases: ["arborio rice", "carnaroli rice"],
+    aisle: "grains-pasta",
+  },
+  {
+    id: "jasmine-rice",
+    name: "jasmine rice",
+    aliases: ["rice", "thai fragrant rice"],
+    aisle: "grains-pasta",
+  },
+  {
+    id: "short-grain-rice",
+    name: "Japanese short-grain rice",
+    aliases: ["sushi rice", "rice"],
+    aisle: "grains-pasta",
+  },
+  {
+    id: "corn-tortilla",
+    name: "small corn tortilla",
+    plural: "small corn tortillas",
+    aliases: ["tortilla", "taco shell"],
+    aisle: "bakery",
+  },
+  {
+    id: "crusty-bread",
+    name: "crusty bread",
+    aliases: ["bread", "sourdough"],
+    aisle: "bakery",
+    flags: ["gluten"],
+  },
+  {
+    id: "plain-flour",
+    name: "plain flour",
+    aliases: ["all-purpose flour", "flour"],
+    aisle: "baking",
+    flags: ["gluten"],
+  },
+  {
+    id: "caster-sugar",
+    name: "caster sugar",
+    aliases: ["superfine sugar", "sugar"],
+    aisle: "baking",
+  },
+  { id: "sugar", name: "granulated sugar", aliases: ["sugar", "white sugar"], aisle: "baking" },
+
+  // ── Tins & jars ──
+  {
+    id: "chopped-tomatoes",
+    name: "chopped tomatoes",
+    aliases: ["canned tomatoes", "tinned tomatoes", "diced tomatoes"],
+    aisle: "tins-jars",
+  },
+  { id: "tomato-puree", name: "tomato purée", aliases: ["tomato paste"], aisle: "tins-jars" },
+  {
+    id: "black-beans",
+    name: "black beans",
+    aliases: ["canned black beans", "turtle beans"],
+    aisle: "tins-jars",
+  },
+  {
+    id: "chickpeas",
+    name: "chickpeas",
+    aliases: ["garbanzo beans", "canned chickpeas"],
+    aisle: "tins-jars",
+  },
+  {
+    id: "tahini",
+    name: "tahini",
+    aliases: ["sesame paste"],
+    aisle: "tins-jars",
+    flags: ["sesame"],
+  },
+  { id: "frozen-peas", name: "frozen peas", aliases: ["peas"], aisle: "frozen" },
+  {
+    id: "vegetable-stock",
+    name: "vegetable stock",
+    aliases: ["vegetable broth", "veg stock"],
+    aisle: "tins-jars",
+  },
+  {
+    id: "lamb-stock",
+    name: "lamb or beef stock",
+    aliases: ["beef stock", "lamb stock", "beef broth"],
+    aisle: "tins-jars",
+    flags: ["meat"],
+  },
+
+  // ── Condiments & world foods ──
+  {
+    id: "soy-sauce",
+    name: "light soy sauce",
+    aliases: ["soy sauce"],
+    aisle: "world-foods",
+    flags: ["soy", "gluten"],
+  },
+  {
+    id: "fish-sauce",
+    name: "fish sauce",
+    aliases: ["nam pla"],
+    aisle: "world-foods",
+    flags: ["fish"],
+  },
+  {
+    id: "oyster-sauce",
+    name: "oyster sauce",
+    aisle: "world-foods",
+    flags: ["shellfish", "soy", "gluten"],
+  },
+  {
+    id: "sesame-oil",
+    name: "toasted sesame oil",
+    aliases: ["sesame oil"],
+    aisle: "world-foods",
+    flags: ["sesame"],
+  },
+  { id: "sesame-seeds", name: "sesame seeds", aisle: "world-foods", flags: ["sesame"] },
+  { id: "mirin", name: "mirin", aisle: "world-foods", flags: ["alcohol"] },
+  { id: "sake", name: "sake", aliases: ["cooking sake"], aisle: "world-foods", flags: ["alcohol"] },
+  {
+    id: "worcestershire-sauce",
+    name: "Worcestershire sauce",
+    // Most Worcestershire sauce contains anchovies.
+    aisle: "condiments",
+    flags: ["fish", "gluten"],
+  },
+
+  // ── Spices & dried herbs ──
+  {
+    id: "ground-turmeric",
+    name: "ground turmeric",
+    aliases: ["turmeric", "haldi"],
+    aisle: "spices",
+  },
+  { id: "cumin-seeds", name: "cumin seeds", aliases: ["jeera"], aisle: "spices" },
+  { id: "ground-cumin", name: "ground cumin", aliases: ["cumin"], aisle: "spices" },
+  {
+    id: "ground-coriander",
+    name: "ground coriander",
+    aliases: ["coriander powder", "dhania"],
+    aisle: "spices",
+  },
+  {
+    id: "kashmiri-chilli-powder",
+    name: "Kashmiri chilli powder",
+    aliases: ["chilli powder", "mild chilli powder"],
+    aisle: "spices",
+  },
+  { id: "garam-masala", name: "garam masala", aisle: "spices" },
+  {
+    id: "smoked-paprika",
+    name: "smoked paprika",
+    aliases: ["pimentón", "paprika"],
+    aisle: "spices",
+  },
+  { id: "sweet-paprika", name: "sweet paprika", aliases: ["paprika"], aisle: "spices" },
+  {
+    id: "chilli-flakes",
+    name: "dried chilli flakes",
+    aliases: ["red pepper flakes", "crushed chilli"],
+    aisle: "spices",
+  },
+  { id: "white-pepper", name: "ground white pepper", aliases: ["white pepper"], aisle: "spices" },
+];
