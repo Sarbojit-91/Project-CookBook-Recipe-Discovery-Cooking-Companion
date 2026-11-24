@@ -1,7 +1,8 @@
 import Link from "next/link";
 import { Suspense } from "react";
-import { ChefHat, CircleUserRound, Search } from "lucide-react";
+import { ChefHat, Search } from "lucide-react";
 import { buttonVariants } from "@/components/ui/button";
+import { AccountButton } from "./account-button";
 import { HeaderNav, HeaderNavLinks } from "./header-nav";
 import { savedNavItem } from "./nav-items";
 
@@ -29,7 +30,7 @@ export function SiteHeader() {
         <div className="ml-auto flex items-center gap-1">
           <Link
             href="/recipes"
-            aria-label="Search recipes"
+            aria-label="Find recipes"
             className={buttonVariants({ variant: "ghost", size: "icon" })}
           >
             <Search aria-hidden className="size-5" />
@@ -41,14 +42,7 @@ export function SiteHeader() {
           >
             <SavedIcon aria-hidden className="size-5" />
           </Link>
-          {/* Replaced by the signed-in account menu in Phase 6. */}
-          <Link
-            href="/login"
-            aria-label="Sign in"
-            className={buttonVariants({ variant: "ghost", size: "icon" })}
-          >
-            <CircleUserRound aria-hidden className="size-5" />
-          </Link>
+          <AccountButton />
         </div>
       </div>
     </header>

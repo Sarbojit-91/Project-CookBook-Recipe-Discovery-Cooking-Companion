@@ -1,1 +1,434 @@
-{}
+{
+  "black-bean-tacos.jpg": {
+    "width": 2000,
+    "height": 2417,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "placeholder": "data:image/webp;base64,UklGRrQAAABXRUJQVlA4IKgAAABwBACdASoQABMAPu1iqU2ppaOiMAgBMB2JbACdMoRwAdDE0gOSMOC5qRAVAAD9c1iQ5eYCFb9Ed47XFPO6ApmeBVj7H9rqMNyM6gTU8QIbt06LIg+3K0JZAX5fb0ILw9ZeCnZtHzTzX9Mj63j7aRdL6s+Dv9cd0A7HebuwdJUxpj2c3NUTlcCQVwtfOCYsP/HCT8Mx2fI3dyLcaY2fV7PyHaGXi9/IAAA=",
+    "hash": "efbe4e360212b51f"
+  },
+  "british-pancakes.jpg": {
+    "width": 2000,
+    "height": 2000,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "placeholder": "data:image/webp;base64,UklGRngAAABXRUJQVlA4IGwAAABQAgCdASoQABAAA4BaJbACdAD7g7QTIRvTCZAA/jRFPYxwg/M0SL2kNam0mTFYKCtvFm/xCQzIx14WTsHxSPO+uCctg6V1bqGz3JTstf8buVEIa8wz6q2SoOlJY6wKkU9m0s0vfSqmWGO8AAA=",
+    "hash": "168b285c6616e082"
+  },
+  "chana-masala.jpg": {
+    "width": 2000,
+    "height": 2000,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "placeholder": "data:image/webp;base64,UklGRoYAAABXRUJQVlA4IHoAAAAQAgCdASoQABAAA4BaJbACdEH/jAw8f2sAAP7zgdyYyE10NG3nInLAWbDwbxOwHNDuL4tXKmF7r1PvQIKc7sx8GKnPU7cXg8m3PLRif2IR1UF5fD9QzYpLMiZUptSgMKwuEEn3fo0XWqOdjMLJWjOjVA0rYXHOdKiwAA==",
+    "hash": "f911f09b9fb5f17d"
+  },
+  "chicken-fajitas.jpg": {
+    "width": 2000,
+    "height": 1500,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "placeholder": "data:image/webp;base64,UklGRogAAABXRUJQVlA4IHwAAAAQAgCdASoQAAwAA4BaJbACdAYr7Cld+eQAAP6msov5NX9Na8S+dNT3nh2CfGXIOqOzKFM9Yv+aGL6AI7qizCx8ud2ly3HZ9+e6bm9Prc4Vlmsarxmr03v8kpzZ5N8ZCSW97LmlBf0PjhCqDy2M2PWFLTgo6wjIcrIpgAAA",
+    "hash": "417eca4040d66f6e"
+  },
+  "chicken-souvlaki.jpg": {
+    "width": 2000,
+    "height": 2667,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "placeholder": "data:image/webp;base64,UklGRsAAAABXRUJQVlA4ILQAAADwBACdASoQABUAPu1iqU2ppaOiMAgBMB2JbACdMoFWADlGovfkL2zQcbM1wBv7vwAA/sJ/cadAJ/dvLYocuXL3lHqWOpPEG4h/oSB9LfA0H4C7od1b8OVKXWzyaxaEfaeP2G6+CQj7UjRTeXQPjlT0f+QynUbOBwdZO+p+JhqYvAleK7znaby0o09kvhw2BBnPGR/WGbbBY4/kz63dIEKh9d7adFASYB+uT76Hed6kA+NWAAA=",
+    "hash": "d6bbbe799b1c16d2"
+  },
+  "classic-scones.jpg": {
+    "width": 2000,
+    "height": 1333,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "placeholder": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAAAwAgCdASoQAAsAA4BaJZgCdAELhQ9b30lITAD+6lV8oUIIAYJxX3NoAPJr2pb+qKPahoy+xbxBkhywLKtHWpOzcdWPNPO5khk4R/n79vC6opObtkIAAA==",
+    "hash": "5e80b9d9b321ed57"
+  },
+  "egg-fried-rice.jpg": {
+    "width": 2000,
+    "height": 1600,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "placeholder": "data:image/webp;base64,UklGRnwAAABXRUJQVlA4IHAAAABQAgCdASoQAA0AA4BaJbACdAYt9dXD1N/0SAAA/uXzVQ7hFGT/OJSPP/VOoQ45fLF0QRdrXVzBEx80Xp4FDhZF+dE8GzIZZT50FShDCdPsTqZsz34O3povNv4/5eGPwP6O8m05MyIVVTLQZcM8xIAA",
+    "hash": "e4819cbee40204b6"
+  },
+  "falafel.jpg": {
+    "width": 2000,
+    "height": 1333,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "placeholder": "data:image/webp;base64,UklGRnQAAABXRUJQVlA4IGgAAABQAgCdASoQAAsAA4BaJbACdAYvXyBegubTd4AA/mxT2zasbk4ORePsnkKtiXgnmdR0677tWDi0lBhJaAYi6wU6TK4Pf2H5v+f/TsXGX1hiYsjEY74FaX2N6TAVmlWfLOv8mxpj98gAAA==",
+    "hash": "d6aba6c55988470a"
+  },
+  "garlic-chilli-spaghetti.jpg": {
+    "width": 2000,
+    "height": 1333,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "placeholder": "data:image/webp;base64,UklGRnYAAABXRUJQVlA4IGoAAAAwAgCdASoQAAsAA4BaJbACdADv3ONOXPlYAAD9U60ILsk0v9wgwFYSSWDs5zGVtuduzgJGptJ/GERkp+3xqo3nJtud09Ju91Dz2CSrAE/+s+Hcf8dXTsh834Nu7U1h72MvynpqPCyAAAAA",
+    "hash": "9b0f64f5991e6221"
+  },
+  "guacamole.jpg": {
+    "width": 2000,
+    "height": 3000,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "placeholder": "data:image/webp;base64,UklGRroAAABXRUJQVlA4IK4AAACQBACdASoQABgAPu1iqU2ppaOiMAgBMB2JbACdAYvCpD4TG9h7oF8BI3QqawAA/t/C2ZG9DX1H3Lni3CMdJM8dmUVpkar7+q3RpO7DqWQ2uCdIh5uG6u3FqEoU7Xs5Qkv19OGBWvDtflVdxXAt1vOQgTJxzn8KhTlIyzOtwGxzjT9jIFNzVCnCYzD/rIuh5e92PvGkXE0QQYHKyQlU9yQRc38lyWZM3/CloA6qAAA=",
+    "hash": "3ca9ea0500ca4f3b"
+  },
+  "home-style-chicken-curry.jpg": {
+    "width": 2000,
+    "height": 2000,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "placeholder": "data:image/webp;base64,UklGRnwAAABXRUJQVlA4IHAAAACwAgCdASoQABAAA4BaJbACdLoAEJIWUc5vizY8vpAA/eO4Vl8NuujBgDnUvrk3o/LME3LzWbSlea6IBDyWrXF9tlFfje3aX9+m9tEEf/JEq8o77vl3cw03oIZTRwL7drQliDsFSNwFeYXzx4m3AAAA",
+    "hash": "e9dfb28128b734b6"
+  },
+  "huevos-rancheros.jpg": {
+    "width": 2000,
+    "height": 3000,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "placeholder": "data:image/webp;base64,UklGRpwAAABXRUJQVlA4IJAAAADwAwCdASoQABgAPu1kqU2ppaQiMAgBMB2JZABV0AfSinw+TuWKtrcAAP7qfbwCbsMEaL9OF1XstuuzwKlJ/JPerqKFxORE0Qd33HAXSGV1s8yD8ahqkqaWkXr7Xjoe0rMO2Wrn0lH+X5v5hbn9iK7bc9htx/9WbWBUWn/Hb1adBxkZDbI4zyoNYRiKcGWKAAA=",
+    "hash": "3be61dbba0560d08"
+  },
+  "kung-pao-chicken.jpg": {
+    "width": 2000,
+    "height": 3000,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "placeholder": "data:image/webp;base64,UklGRrQAAABXRUJQVlA4IKgAAACwBACdASoQABgAPu1iqU2ppaOiMAgBMB2JbACdAYxs3nu2Qjt3TqUD15t5RoQAAP7doQL6jzmH/IxtAmFR7M2rxTX5uoiu3wP48oB/MmjS3pVSNDRTNVo0Z5AR8BqLuwXjwqoEjxw6wZi8NTj150EHvqagO2Mdj5ZDCaqeCAl8KBc2e71TlKCzdOibmlg9rbQkXSKtGkozbp6Lu/QP+GPU0rlhQjuAAAA=",
+    "hash": "c4de88d7768bc35e"
+  },
+  "leek-potato-soup.jpg": {
+    "width": 2000,
+    "height": 2992,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "placeholder": "data:image/webp;base64,UklGRtAAAABXRUJQVlA4IMQAAACQBACdASoQABgAPu1iqU2ppaOiMAgBMB2JbACw7Yr65a/KMU6o787nPLHDlIAA9ohT8Ulx2T3lyHrHv582MnbJfWkrypkFSm28nleuX8mhnwKtO5PBucvw60fAE78r0VTUkf/ziC8xTRDwXJV/V1AH/8xry9gZ9cJZncjN5uEO3jSeO/jdK0bw+Y1xWiisP6MS5Q+9UB3aeTng+eX0MOsaHX7t1+bxScDLxtHsSuPe/fkC+ajfJ8Zdtrr+WuCZMAewAAAA",
+    "hash": "cce76ae3f5f90762"
+  },
+  "mango-lassi.jpg": {
+    "width": 2000,
+    "height": 3000,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "placeholder": "data:image/webp;base64,UklGRqYAAABXRUJQVlA4IJoAAAAwBACdASoQABgAPu1kqk4ppaQiMAgBMB2JbACdMoAlvD9z+9z9KOgau9AA/IKlbl4+gLalSSLqiKqhFv5AW4744ZrqTQvNe/WtnIzQO/UPGtcbw6l/UDYUleMe9XRRbJrOe2dqMeluR4yV3Ce9qwUK/abaSyRWMdbgRF0eCuoW0tsMq/bX76ErxO8KAZZKHaNg6fC+cmlc3QAA",
+    "hash": "3a86cc579d0a7cac"
+  },
+  "mango-sticky-rice.jpg": {
+    "width": 2000,
+    "height": 2656,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "placeholder": "data:image/webp;base64,UklGRroAAABXRUJQVlA4IK4AAADQBACdASoQABUAPu1iqU2ppaOiMAgBMB2JbACdMoCGAZ3g35/P+t0HxdJeK4rAAAD+5RVJHe8oR3ehn8zrUrABj0uItHL2669rkU3CnjPPT1blB1mwK9aCj7SMT/AkmjTHLgvBI5TkrZS/ijSh7VtxcP5lejhaYW72KBsR5TU3mNTQ7710bP5vFGbP8puCXPOfm9rsMHRQE/ygpczw3L/ohZMTCBWpOye05rct3AA=",
+    "hash": "bd657c86ff39a120"
+  },
+  "masala-omelette.jpg": {
+    "width": 2000,
+    "height": 1331,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "placeholder": "data:image/webp;base64,UklGRmQAAABXRUJQVlA4IFgAAADwAQCdASoQAAsAA4BaJbACdADwK0bXRIAAykDbHKVl8RCsx1QO1iZJ1ycfQW/iaHfDhYeyVzq2A72v2rXcQSivBw/ISIUw+fuEoHVrSO46I+A0n4EtcAAA",
+    "hash": "3196235c1bcd378d"
+  },
+  "miso-soup.jpg": {
+    "width": 2000,
+    "height": 1506,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "placeholder": "data:image/webp;base64,UklGRnIAAABXRUJQVlA4IGYAAABQAgCdASoQAAwAA4BaJZACdAYvDdZlLL2E5oAA/sb2zvf5Pe5S/YkEA2EUs0z6jozw156PQfXAWwgNwSchJHOqoZmhdUsI6DFrvLCBrUf2y9U6RW1ksKGjkfoRvLU5L1sETQrXgAA=",
+    "hash": "b95f21c79ee3b2bd"
+  },
+  "mushroom-risotto.jpg": {
+    "width": 2000,
+    "height": 3000,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "placeholder": "data:image/webp;base64,UklGRpIAAABXRUJQVlA4IIYAAACQBACdASoQABgAPu1iqU2ppaOiMAgBMB2JZAC07agBWFDte4lSJmCwRxHZqvAA/uduAjb6BmWyA9CKRSRMYFDDXGaSAmyPxLMTDCMyB653foXMuBn8ayn7AQvoi0cGkMCIRSdtp9aNrOzxWLYxH1pt0VP7uBpslqiCCXYDGVZhX7e+/AAAAA==",
+    "hash": "e50127300f77a093"
+  },
+  "pad-thai.jpg": {
+    "width": 2000,
+    "height": 1500,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "placeholder": "data:image/webp;base64,UklGRoIAAABXRUJQVlA4IHYAAABwAgCdASoQAAwAA4BaJbACdAYuH2w1oVMtg1MgAP6tQc/FvZft2sAf605ZkPpoADjtdb005IdhtQ+1vFZDO2BwlkJyosmWsfXhmA0m4S5C8d19qKPke3EPbXNertgBASGPa2yw/zIfXu6h9q3MsLLWLMdqAAAA",
+    "hash": "5096a239806c4fd1"
+  },
+  "pasta-pomodoro.jpg": {
+    "width": 2000,
+    "height": 2667,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "placeholder": "data:image/webp;base64,UklGRqQAAABXRUJQVlA4IJgAAABQBACdASoQABUAPu1iqU2ppaOiMAgBMB2JbACdMoR2WCKjLz4MAU5kw+kgAP4uykFaS44LRhArFWtJzaQRmIFIK7jNSbYeyq94pcYcSEG46iNXdWKhi+59QuLZj0Ei3RoSjD6zd7h5TNdDSHLIHNq8zePwAlNRmXTLxti06QrIS7Q874FUlPt5bPNZudqpNsbi8cXY2u7IAA==",
+    "hash": "03093407a50035ef"
+  },
+  "porridge-with-berries.jpg": {
+    "width": 2000,
+    "height": 3000,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "placeholder": "data:image/webp;base64,UklGRrwAAABXRUJQVlA4ILAAAACQBACdASoQABgAPu1iqU2ppaOiMAgBMB2JbAAdqgRGYvUAcj6iVdXCK4GriwgA/ucrxF6O9peD+wh1Xp4VwkOZ0zleqBsIdFqMetSZlM8VLPut+P/Y6+4K7d1CozJVA16DXE/hX5zIy1gNS/Jk2i8L3vw8phX1A3iWAOjH8+gS/Y1bM8FCGz2YKnsWrRIDFl7vk/54EZFCCu1EV0alWDcNz4qwRr1Y8s9EzuoAh4AAAA==",
+    "hash": "0c4a6228fe8ca2ca"
+  },
+  "red-lentil-dal.jpg": {
+    "width": 2000,
+    "height": 1333,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "placeholder": "data:image/webp;base64,UklGRnQAAABXRUJQVlA4IGgAAADwAQCdASoQAAsAA4BaJbACdADsd2nD+YAA/q9wcSRLS9lmQ+lA00xTX9XQ7b0AxCpN1TfrfBueDKPxWXe2hnn89H2UKanqB58kayXueJVjzPZslJe3f/+Ec7MmHKFlOM3MiVqHJ8AAAA==",
+    "hash": "377b711656dc6a44"
+  },
+  "shakshuka.jpg": {
+    "width": 2000,
+    "height": 2667,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "placeholder": "data:image/webp;base64,UklGRt4AAABXRUJQVlA4INIAAADwBACdASoQABUAPu1iqU2ppaOiMAgBMB2JbACdMoRitPJO80ERoHR5uUMII8pgTgAA/VL60jfpjEVkdQjtfpJHzFC+HJvTMEeMDbLwc6ZZmkc+OXyHdH6z2o+IhTHHePvnUeJMV7kVSXg+QiUyCgLlGth75lWUGvL7BgqSloyvwqPkoXFtIupfUg2tmfe/0GqmBUvS0NmPhy4cvLpyey0xx1WDHBEL0H6lfP5N9WoLAWaFTgp7b5CiPe/OiUavRixCqJrTiqfdLgnAdEW4UAHIgAA=",
+    "hash": "f07be1a9bb6c1479"
+  },
+  "shepherds-pie.jpg": {
+    "width": 2000,
+    "height": 1333,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "placeholder": "data:image/webp;base64,UklGRmQAAABXRUJQVlA4IFgAAABQAgCdASoQAAsAA4BaJbACdAEf5tFLrvUoyAAAzj3KtztUb9YBwAA5MGJoNvTiYf5MNDHI5bS217VaG4UrDSqhW+tNDBJdDCr8nmWkxtUSdX1cDTvFQAAA",
+    "hash": "5541ee3c401fc350"
+  },
+  "smacked-cucumber-salad.jpg": {
+    "width": 2000,
+    "height": 2991,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "placeholder": "data:image/webp;base64,UklGRqYAAABXRUJQVlA4IJoAAAAwBACdASoQABgAPu1iqU2ppaOiMAgBMB2JagCw7Yuax2ZdfHZono5sQkAA/r/yCntLoeMpugS6h2hXtq/hueEBzEFhOzC+hP8NbjNm24B6yQ5ev9unwS7xjK6rRiPRS/DbPdiWt24Au+IJKc9uRR9wl6IIMtlzlWB8tR/Ymct9SSpuWhDL58k6LrC13fwayzIg/Li6mPZ48VAA",
+    "hash": "a4430a1d3ad1397f"
+  },
+  "smooth-hummus.jpg": {
+    "width": 2000,
+    "height": 1362,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "placeholder": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAADwAQCdASoQAAsAA4BaJbACdAYrwtTplgAA/rxyfjFVS4eE67lg8Uk/sDa/nUcrw+pyD5u4nXDLGETiEx2yJx+VjcwciX1UuACkgb+QPznL6zcgAAA=",
+    "hash": "4afe6c1073b51191"
+  },
+  "tabbouleh.jpg": {
+    "width": 2000,
+    "height": 1500,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "placeholder": "data:image/webp;base64,UklGRngAAABXRUJQVlA4IGwAAAAQAgCdASoQAAwAA4BaJYgCdAERHc9wfsXwAP7mmTCAxB9FdWX5ZpLrN943IQKHXXuWePzAOr1C79Y6ZM/CY4F3aYR8W+Z6vJ7XhFQST4YG6hxPaXJVWifxS5f9VlMMeVvUOQbvxfjEHncAAAA=",
+    "hash": "e0a7c6fcd93477be"
+  },
+  "tamagoyaki.jpg": {
+    "width": 2000,
+    "height": 2000,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "placeholder": "data:image/webp;base64,UklGRnIAAABXRUJQVlA4IGYAAADQAgCdASoQABAAA4BaJZACdH8IIABiuFrMX+ZEF65AAP718h3fFPNdQZdk3jmi4cKbPUyf/pQQELw9APoF3GK1vDiuAXKI5uKlFVfOmpPyBWHtBUWWMdXbQchDXIVU88zG9d3NWAA=",
+    "hash": "a3b1b97d1647a215"
+  },
+  "teriyaki-salmon-bowl.jpg": {
+    "width": 2000,
+    "height": 2667,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "placeholder": "data:image/webp;base64,UklGRqoAAABXRUJQVlA4IJ4AAAAwBACdASoQABUAPu1iqU2ppaOiMAgBMB2JbACdMoADRgydWBZZZhEe0WgA/qM/hypk7QVoKcFE3deiok+RX1aMkwoOtcTe+qaWpQvMKMxEuf6j0vF5JyuIjUkEawx/ZWlz1ltnMJelSWzznle/TfIy7PL6oP9zMN9G7q3+yE4/wGgenlcbYK7PfypsB4dsn1/D38jLkEOUvRNoDQAAAA==",
+    "hash": "b0870d73e8795e8e"
+  },
+  "thai-green-curry.jpg": {
+    "width": 2000,
+    "height": 1333,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "placeholder": "data:image/webp;base64,UklGRoQAAABXRUJQVlA4IHgAAABQAgCdASoQAAsAA4BaJbACdAEVrQPU45NsLUAA9HZVZXASya2od0YFMAS78+8VTdZ57RmL5nT2bPX1j9e1dPFaGFIfmvx0Pv2zDDcVTlzzhYRGpyS82335e75PMserGr3X9vCao4jxMoK72nFxwFUhB3ok8lsMAAA=",
+    "hash": "0c1be3cb9d209689"
+  },
+  "thai-holy-basil-chicken.jpg": {
+    "width": 2000,
+    "height": 2667,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "placeholder": "data:image/webp;base64,UklGRqIAAABXRUJQVlA4IJYAAAAwBACdASoQABUAPu1iqU2ppaOiMAgBMB2JZACdMoACg+ibvgvHWFv7vwAA/bKZ5paNfQLMtMNuqSsslnR1IJxtZRJ05SQlhEFV7gKB8yuvDZUu57qYCgAJFHChPrTnFqbD2pNs0V1WTkueMjvX5gmcUtI0WPys3ZQ4dmtjnEdLl43XxX6Cv8q9BMwevLiMQUqOo9QAAAA=",
+    "hash": "8657f915ce492233"
+  },
+  "tiramisu.jpg": {
+    "width": 2000,
+    "height": 1600,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "placeholder": "data:image/webp;base64,UklGRmwAAABXRUJQVlA4IGAAAADwAQCdASoQAA0AA4BaJQBOgBeaK6AnAAAA+KMoy3Kd8GgcvBTNFKUDa2RoG2BRUgIzaL60Emcz1VZeCnZX8WJ2aCXOi6JEQDsgEU80hyYiHN030zbEl3foaL1QJuwMAAA=",
+    "hash": "7e002ae31db53740"
+  },
+  "tomato-bruschetta.jpg": {
+    "width": 2000,
+    "height": 1331,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "placeholder": "data:image/webp;base64,UklGRnAAAABXRUJQVlA4IGQAAAAQAgCdASoQAAsAA4BaJYgCdAEfqQSUWioAAP7y59mwAGQIO1TQ02rYDL5GvMZvIrBvjWYP6y4c89ROjnmTvnc95Bw4oc7oGDz8ZQqulKDwc7qsvAK44ALlQSskADehLdze0AAA",
+    "hash": "75f07b6fd15ca70c"
+  },
+  "tomato-egg-stir-fry.jpg": {
+    "width": 2000,
+    "height": 3556,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "placeholder": "data:image/webp;base64,UklGRtQAAABXRUJQVlA4IMgAAACwBACdASoQABwAPu1kq04ppaQiMAgBMB2JbAC7AYzIsqo6HeTQKrvQ90IeBxAAAP6yPnc1fJbdwC6JrJqVu6QqbT77IdBFE7mfnLLbw3+ObJccPNDbg7UYxMEhF15o2K5QJITpZfPtKyeDFzfBEU07gtGsl+L80H5fsaMuSvbWyH70cGWLj83iOAfx34lqEueaGYfD8ppm20VeupDy0fBoUmuKvweiAdrZ7NEOQhjbprZr1/0ikJgZCbxy3WuuI8E2bXspMAAAAA==",
+    "hash": "4b7ac3931172bc42"
+  },
+  "yaki-udon.jpg": {
+    "width": 2000,
+    "height": 2997,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "placeholder": "data:image/webp;base64,UklGRr4AAABXRUJQVlA4ILIAAABwBACdASoQABgAPu1iqU2ppaOiMAgBMB2JbAC06Yx25y0/EwzJSsgB5Tg+QADMm+lx5AYecF3TxMA6dQWqcbZrYd+C0zOpL3fz2D2Vqq6uzZ6rEikVMFpOpITb/bQF9lE+Q91DFzkm9GtW7uyYpa9EGp8uQV3Vixg9V1TM5Nu4zp2Pw1TmPLh3z0CRxdaGF//H42acAvPSOVhX18SO/maNESqRKaD7e8WHdpJGirfmvwAA",
+    "hash": "37d88d06d60cd339"
+  }
+}

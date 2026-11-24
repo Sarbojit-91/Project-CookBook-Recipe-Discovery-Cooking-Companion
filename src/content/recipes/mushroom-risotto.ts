@@ -16,7 +16,15 @@ export const recipe = {
   seasons: ["autumn", "winter"],
   addedAt: "2026-11-11",
   featured: true,
-  image: null,
+  image: {
+    file: "mushroom-risotto.jpg",
+    alt: "A bowl of mushroom risotto topped with fresh parsley and grated cheese",
+    credit: {
+      photographer: "khloe arledge",
+      sourceUrl: "https://unsplash.com/photos/mushroom-risotto-dinner-with-parmesan-gg_PV3EvCaM",
+      license: "unsplash",
+    },
+  },
   ingredients: [
     { ingredient: "vegetable-stock", quantity: 1.2, unit: "l", preparation: "hot" },
     { ingredient: "olive-oil", quantity: 1, unit: "tbsp", group: "For the mushrooms" },

@@ -10,14 +10,11 @@ describe("EmptyState", () => {
         icon={Heart}
         title="No saved recipes yet"
         description="Tap the heart on any recipe."
-        action={<a href="/recipes">Browse recipes</a>}
+        action={<button type="button">Browse recipes</button>}
       />,
     );
     expect(screen.getByRole("heading", { name: "No saved recipes yet" })).toBeInTheDocument();
     expect(screen.getByText("Tap the heart on any recipe.")).toBeInTheDocument();
-    expect(screen.getByRole("link", { name: "Browse recipes" })).toHaveAttribute(
-      "href",
-      "/recipes",
-    );
+    expect(screen.getByRole("button", { name: "Browse recipes" })).toBeInTheDocument();
   });
 });

@@ -16,7 +16,16 @@ export const recipe = {
   seasons: ["autumn", "winter"],
   addedAt: "2026-11-24",
   featured: false,
-  image: null,
+  image: {
+    file: "shepherds-pie.jpg",
+    alt: "A golden mashed-potato-topped pie in a dish, with a serving on a plate beside a fork",
+    credit: {
+      photographer: "The Fry Family Food Co.",
+      sourceUrl:
+        "https://unsplash.com/photos/a-casserole-dish-on-a-plate-with-a-fork-next-to-it-LHr6EN-B8NQ",
+      license: "unsplash",
+    },
+  },
   ingredients: [
     { ingredient: "vegetable-oil", quantity: 1, unit: "tbsp", group: "For the filling" },
     { ingredient: "lamb-mince", quantity: 500, unit: "g", group: "For the filling" },

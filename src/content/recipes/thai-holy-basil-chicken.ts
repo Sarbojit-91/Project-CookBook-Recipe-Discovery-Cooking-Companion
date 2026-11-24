@@ -16,7 +16,16 @@ export const recipe = {
   seasons: ["summer"],
   addedAt: "2026-11-17",
   featured: false,
-  image: null,
+  image: {
+    file: "thai-holy-basil-chicken.jpg",
+    alt: "A Thai basil stir-fry with rice and a crisp-edged fried egg on a grey plate",
+    credit: {
+      photographer: "Vicky Ng",
+      sourceUrl:
+        "https://unsplash.com/photos/fried-rice-with-sunny-side-up-egg-on-gray-ceramic-plate-NT5oqzp-050",
+      license: "unsplash",
+    },
+  },
   ingredients: [
     { ingredient: "jasmine-rice", quantity: 150, unit: "g" },
     { ingredient: "garlic", quantity: 4, unit: "clove", group: "For the stir-fry" },

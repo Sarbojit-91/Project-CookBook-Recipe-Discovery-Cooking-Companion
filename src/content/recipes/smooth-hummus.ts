@@ -16,7 +16,15 @@ export const recipe = {
   seasons: [],
   addedAt: "2026-11-21",
   featured: false,
-  image: null,
+  image: {
+    file: "smooth-hummus.jpg",
+    alt: "A bowl of smooth hummus swirled with olive oil and topped with a garnish",
+    credit: {
+      photographer: "Ludovic Avice",
+      sourceUrl: "https://unsplash.com/photos/a-bowl-of-hummus-with-a-garnish-on-top-yr-sW_x9aHk",
+      license: "unsplash",
+    },
+  },
   ingredients: [
     {
       ingredient: "chickpeas",

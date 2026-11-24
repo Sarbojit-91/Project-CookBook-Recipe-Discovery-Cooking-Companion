@@ -7,8 +7,24 @@ Source of truth for scope and decisions. Update it when a decision changes.
 - [x] Phase 0 — Project setup
 - [x] Phase 1 — Design system and layout (tokens, fonts, header, mobile tab bar, base UI, 404/error/loading)
 - [x] Phase 2 — Content schema + validation, ingredients, image pipeline, 12 recipes (photos pending)
-- [ ] Phase 3 — Discovery: home, `/recipes`, recipe page, landing pages ← next
-- [ ] Phases 4–11 (see below)
+- [x] Phases 3–9, 11 — discovery, pantry, cooking mode, accounts (optional), saved, planner,
+      shopping list, info pages, SEO, security headers, tests (built in one pass, 2026-11-24)
+- [x] Recipe photos — all 36 recipes have credited Unsplash photos
+- [x] Recipes — 36 written (4–5 per cuisine, all meal types)
+- [ ] Supabase project — code and migration ready; needs a project created by the owner
+
+## Decisions made during the build
+
+- **Accounts are optional.** Without Supabase variables, personal data is kept in the browser
+  (local storage). With them, the same screens sync to Supabase. One reducer drives both.
+- **Personal data is read and written from the browser** with the public key; row-level security
+  in the database is the access control. No service-role key exists in the app.
+- **Simplified tables:** `meal_plan_entries` and `shopping_list_items` carry `user_id` and
+  `week_start` directly (no parent `meal_plans` / `shopping_lists` tables) — one list per user.
+- **Unknown recipe URLs are a "soft 404"** (not-found page + `noindex`, HTTP 200), which is how
+  Next.js streams with Cache Components. A true 404 would need a proxy check on every request.
+- **Seasons** use northern-hemisphere months and are chosen in the browser, so the static home
+  page never shows a stale season.
 
 ## Key decisions
 

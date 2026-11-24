@@ -16,7 +16,16 @@ export const recipe = {
   seasons: ["spring"],
   addedAt: "2026-11-23",
   featured: true,
-  image: null,
+  image: {
+    file: "teriyaki-salmon-bowl.jpg",
+    alt: "A glazed salmon fillet served with vegetables on a white plate",
+    credit: {
+      photographer: "Sara Nichols",
+      sourceUrl:
+        "https://unsplash.com/photos/a-white-plate-topped-with-fish-and-veggies-V0TUKexdlb4",
+      license: "unsplash",
+    },
+  },
   ingredients: [
     { ingredient: "short-grain-rice", quantity: 150, unit: "g", group: "For the rice" },
     { ingredient: "water", quantity: 200, unit: "ml", group: "For the rice" },

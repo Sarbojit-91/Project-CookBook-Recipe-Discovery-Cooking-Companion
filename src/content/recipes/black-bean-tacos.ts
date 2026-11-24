@@ -16,7 +16,15 @@ export const recipe = {
   seasons: ["spring", "summer"],
   addedAt: "2026-11-14",
   featured: true,
-  image: null,
+  image: {
+    file: "black-bean-tacos.jpg",
+    alt: "Soft tacos piled with avocado, tomato and fresh toppings",
+    credit: {
+      photographer: "Chad Montano",
+      sourceUrl: "https://unsplash.com/photos/cooked-tacos-lP5MCM6nZ5A",
+      license: "unsplash",
+    },
+  },
   ingredients: [
     {
       ingredient: "red-onion",

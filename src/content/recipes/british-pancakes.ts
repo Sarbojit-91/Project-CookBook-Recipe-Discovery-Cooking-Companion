@@ -16,7 +16,15 @@ export const recipe = {
   seasons: ["winter", "spring"],
   addedAt: "2026-11-20",
   featured: false,
-  image: null,
+  image: {
+    file: "british-pancakes.jpg",
+    alt: "Thin folded pancakes stacked on a white and blue plate",
+    credit: {
+      photographer: "M Draa",
+      sourceUrl: "https://unsplash.com/photos/white-and-blue-ceramic-plate-26NcU5Vkd5o",
+      license: "unsplash",
+    },
+  },
   ingredients: [
     { ingredient: "plain-flour", quantity: 100, unit: "g", group: "For the batter" },
     { ingredient: "salt", quantity: 1, unit: "pinch", group: "For the batter" },

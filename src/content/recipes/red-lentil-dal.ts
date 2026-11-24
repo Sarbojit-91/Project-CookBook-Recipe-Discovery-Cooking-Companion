@@ -16,7 +16,16 @@ export const recipe = {
   seasons: ["autumn", "winter"],
   addedAt: "2026-11-02",
   featured: true,
-  image: null,
+  image: {
+    file: "red-lentil-dal.jpg",
+    alt: "A white bowl of golden lentil dal garnished with herbs, with lemon slices beside it",
+    credit: {
+      photographer: "VD Photography",
+      sourceUrl:
+        "https://unsplash.com/photos/sliced-orange-fruit-beside-white-ceramic-bowl-with-green-soup-iEJ3GhgO3jY",
+      license: "unsplash",
+    },
+  },
   ingredients: [
     { ingredient: "red-lentils", quantity: 250, unit: "g", preparation: "rinsed" },
     { ingredient: "water", quantity: 1, unit: "l" },

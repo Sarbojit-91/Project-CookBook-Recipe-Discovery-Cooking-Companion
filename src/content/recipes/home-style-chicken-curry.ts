@@ -16,7 +16,16 @@ export const recipe = {
   seasons: ["autumn", "winter"],
   addedAt: "2026-11-05",
   featured: false,
-  image: null,
+  image: {
+    file: "home-style-chicken-curry.jpg",
+    alt: "A bowl of chicken curry in a rich red-brown gravy, served with a bowl of rice",
+    credit: {
+      photographer: "Rimsha Noor",
+      sourceUrl:
+        "https://unsplash.com/photos/a-bowl-of-chicken-curry-next-to-a-bowl-of-rice-tsQhEvzU6MQ",
+      license: "unsplash",
+    },
+  },
   ingredients: [
     { ingredient: "vegetable-oil", quantity: 3, unit: "tbsp" },
     { ingredient: "onion", quantity: 2, unit: "piece", preparation: "finely chopped" },

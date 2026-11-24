@@ -16,7 +16,16 @@ export const recipe = {
   seasons: ["spring", "summer"],
   addedAt: "2026-11-19",
   featured: false,
-  image: null,
+  image: {
+    file: "shakshuka.jpg",
+    alt: "Eggs baked in a spiced tomato sauce in a pan, scattered with fresh herbs",
+    credit: {
+      photographer: "Yoav Aziz",
+      sourceUrl:
+        "https://unsplash.com/photos/stainless-steel-fork-on-brown-ceramic-plate-422N7Nwq5XY",
+      license: "unsplash",
+    },
+  },
   ingredients: [
     { ingredient: "olive-oil", quantity: 2, unit: "tbsp" },
     { ingredient: "onion", quantity: 1, unit: "piece", preparation: "thinly sliced" },

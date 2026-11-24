@@ -16,7 +16,15 @@ export const recipe = {
   seasons: [],
   addedAt: "2026-11-08",
   featured: false,
-  image: null,
+  image: {
+    file: "garlic-chilli-spaghetti.jpg",
+    alt: "A twirl of spaghetti glossy with olive oil, lifted on a fork",
+    credit: {
+      photographer: "Christine Sandu",
+      sourceUrl: "https://unsplash.com/photos/pasta-food-Nx3OCfnRit8",
+      license: "unsplash",
+    },
+  },
   ingredients: [
     { ingredient: "spaghetti", quantity: 200, unit: "g" },
     { ingredient: "salt", quantity: 1, unit: "tbsp", note: "For the pasta water" },

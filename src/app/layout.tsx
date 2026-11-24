@@ -1,9 +1,9 @@
 import type { Metadata, Viewport } from "next";
 import { Fraunces, Inter } from "next/font/google";
-import { MobileTabBar } from "@/components/layout/mobile-tab-bar";
-import { SiteFooter } from "@/components/layout/site-footer";
-import { SiteHeader } from "@/components/layout/site-header";
 import { SkipLink } from "@/components/layout/skip-link";
+import { PersonalProvider } from "@/components/providers/personal-provider";
+import { ToastProvider } from "@/components/providers/toast-provider";
+import { SITE_URL } from "@/lib/site";
 import "./globals.css";
 
 const inter = Inter({
@@ -20,12 +20,14 @@ const fraunces = Fraunces({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL(SITE_URL),
   title: {
     default: "CookBook – Recipe Discovery & Cooking Companion",
     template: "%s · CookBook",
   },
   description:
     "Discover recipes, cook step by step, plan your week and build your own recipe collection.",
+  openGraph: { siteName: "CookBook", type: "website", locale: "en_GB" },
 };
 
 export const viewport: Viewport = {
@@ -35,15 +37,12 @@ export const viewport: Viewport = {
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
-    <html lang="en" className={`${inter.variable} ${fraunces.variable} h-full antialiased`}>
-      <body className="flex min-h-full flex-col pb-[calc(var(--spacing-tabbar)+env(safe-area-inset-bottom))] md:pb-0">
+    <html lang="en-GB" className={`${inter.variable} ${fraunces.variable} h-full antialiased`}>
+      <body className="flex min-h-full flex-col">
         <SkipLink />
-        <SiteHeader />
-        <main id="main" tabIndex={-1} className="flex flex-1 flex-col outline-none">
-          {children}
-        </main>
-        <SiteFooter />
-        <MobileTabBar />
+        <ToastProvider>
+          <PersonalProvider>{children}</PersonalProvider>
+        </ToastProvider>
       </body>
     </html>
   );

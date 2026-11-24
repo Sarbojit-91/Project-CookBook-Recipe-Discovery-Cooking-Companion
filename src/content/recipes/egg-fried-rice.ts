@@ -16,7 +16,15 @@ export const recipe = {
   seasons: [],
   addedAt: "2026-11-22",
   featured: false,
-  image: null,
+  image: {
+    file: "egg-fried-rice.jpg",
+    alt: "A mound of fried rice with peas and carrots on a white plate",
+    credit: {
+      photographer: "Christopher Alvarenga",
+      sourceUrl: "https://unsplash.com/photos/fried-rice-with-peas-and-carrots-rQX9eVpSFz8",
+      license: "unsplash",
+    },
+  },
   ingredients: [
     {
       ingredient: "jasmine-rice",

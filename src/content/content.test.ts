@@ -10,7 +10,7 @@ const bySlug = new Map(content.recipes.map((r) => [r.slug, r]));
 
 describe("recipe content", () => {
   it("loads and validates", () => {
-    expect(content.recipes).toHaveLength(12);
+    expect(content.recipes).toHaveLength(36);
     expect(content.cuisines.length).toBeGreaterThan(0);
   });
 
@@ -29,6 +29,30 @@ describe("recipe content", () => {
       "smooth-hummus": "vegan",
       "teriyaki-salmon-bowl": "pescatarian",
       "thai-holy-basil-chicken": "non-vegetarian",
+      "chana-masala": "vegan",
+      "chicken-fajitas": "non-vegetarian",
+      "chicken-souvlaki": "non-vegetarian",
+      "classic-scones": "vegetarian",
+      falafel: "vegan",
+      guacamole: "vegan",
+      "huevos-rancheros": "vegetarian",
+      "kung-pao-chicken": "non-vegetarian",
+      "leek-potato-soup": "vegetarian",
+      "mango-lassi": "vegetarian",
+      "mango-sticky-rice": "vegan",
+      "masala-omelette": "vegetarian",
+      "miso-soup": "vegan",
+      "pad-thai": "pescatarian",
+      "pasta-pomodoro": "vegan",
+      "porridge-with-berries": "vegetarian",
+      "smacked-cucumber-salad": "vegan",
+      tabbouleh: "vegan",
+      tamagoyaki: "vegetarian",
+      "thai-green-curry": "non-vegetarian",
+      tiramisu: "vegetarian",
+      "tomato-bruschetta": "vegan",
+      "tomato-egg-stir-fry": "vegetarian",
+      "yaki-udon": "vegan",
     };
     const actual = Object.fromEntries(content.recipes.map((r) => [r.slug, r.diet]));
     expect(actual).toEqual(expected);
